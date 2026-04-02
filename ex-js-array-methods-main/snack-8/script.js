@@ -33,4 +33,14 @@ students.find((student) => {
 console.log(studentSelected.class);
 
 
+
+// Correzione
+
+let studentChoose = students.find((student) => {
+  return student.name === 'Marco Lanci'
+})
+
+console.log(studentChoose.class);
+
+
 // Risultato: '3C'
